@@ -1,0 +1,11 @@
+https://www.youtube.com/watch?v=Fbu7z5dXcRs&t=1301s
+
+yarn init -y
+yarn add express pg pg-hstore sequelize
+yarn add sequelize-cli -D
+yarn add nodemon -D
+
+yarn sequelize db:create
+yarn sequelize migration:create --name=create-usuarios
+yarn sequelize db:migrate
+yarn sequelize migration:create --name=create-enderecos
