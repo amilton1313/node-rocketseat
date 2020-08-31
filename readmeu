@@ -9,3 +9,6 @@ yarn sequelize db:create
 yarn sequelize migration:create --name=create-usuarios
 yarn sequelize db:migrate
 yarn sequelize migration:create --name=create-enderecos
+
+yarn sequelize migration:create --name=create-indices
+yarn sequelize migration:create --name=create-indices_datas
